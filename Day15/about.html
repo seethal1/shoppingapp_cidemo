@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external stylesheet -->
+</head>
+<body>
+    <header>
+        <h1>About Our Company</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="company-overview">
+        <h2>Our Story</h2>
+        <p>Founded in 2020, our company has been committed to providing exceptional services in the tech industry. We started with a simple mission: to make technology accessible and affordable to everyone. Over the years, we've grown, developed new products, and expanded our reach worldwide.</p>
+
+        <h2>Our Values</h2>
+        <ul>
+            <li>Innovation</li>
+            <li>Integrity</li>
+            <li>Customer-Centric Approach</li>
+            <li>Quality First</li>
+        </ul>
+    </section>
+
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Team Member 1">
+            <h3>John Doe</h3>
+            <p>CEO & Founder</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Team Member 2">
+            <h3>Jane Smith</h3>
+            <p>Lead Developer</p>
+        </div>
+        <!-- Add more team members as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you'd like to know more about our company or have any inquiries, feel free to reach out using the contact form below.</p>
+
+        <form action="/submit_contact" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Company. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
